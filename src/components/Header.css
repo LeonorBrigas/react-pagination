@@ -1,0 +1,48 @@
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(9, 34, 61);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/*.scrolled {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+*/
+.headerLogo {
+  width: 300px;
+  object-fit: contain;
+  margin: 30px;
+  padding: 10px;
+}
+.headerSearch{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.headerSearchInput{
+  height: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  width: 70%;
+}
+
+.headerSearchIcon {
+  padding: 12px;
+  height: 20px !important;
+  background-color: rgb(30, 182, 126);
+}
+
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+
